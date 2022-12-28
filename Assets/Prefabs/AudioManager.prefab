@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8509105715474808763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8509105715474808761}
+  - component: {fileID: 8509105715474808760}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8509105715474808761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509105715474808763}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98.34794, y: 144.62712, z: -79.03167}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8509105715474808760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509105715474808763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14c347c4a4667594a92872e7d3397554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: UI Clicks
+    clip: {fileID: 8300000, guid: e7184d6c3af9d384aad40f881f3d7b94, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: UI Pop Up
+    clip: {fileID: 8300000, guid: cb61a1eade3ef87478fe3ff5808b3b0e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: Water Pouring
+    clip: {fileID: 8300000, guid: 1f97729451f302047894f54501df5eea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: Put Soil
+    clip: {fileID: 8300000, guid: 9a954d769fe04364b80136792390639e, type: 3}
+    volume: 0.57
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: Put Trash
+    clip: {fileID: 8300000, guid: dd5b54d722180254cb5862faa4f79f6a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: Planting Seeds
+    clip: {fileID: 8300000, guid: b2c543bdfafe1cb48a2bd9224098924f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: Give to Grandma
+    clip: {fileID: 8300000, guid: 00fa83ba99e227946b4cb2ceafefd00c, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}
+  - name: Lose Screen
+    clip: {fileID: 8300000, guid: 076d07b1bd25dce488c98eb2fca143ea, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    am: {fileID: 24300002, guid: d0a56ed503f5f184489171a32de3a4a8, type: 2}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd61843a727e2b44a836bbd946c6988c, type: 3}
+  m_Name: Sansevieria
+  m_EditorClassIdentifier: 
+  plantName: Sansevieria
+  plantMaxHealth: 250
+  plantPoorHealth: 31
+  plantMaxWater: 50
+  plantConsume: 15
+  plantPhaseDay: 2
+  plantStages:
+  - {fileID: 21300000, guid: 6ec853f2860c6d54cb860aacd70fa55c, type: 3}
+  - {fileID: 21300000, guid: fcd179940cd7b1d49a45bdaac345aafc, type: 3}
+  - {fileID: 21300000, guid: 21803c1425ebda24db777c3a88bacb2e, type: 3}
+  - {fileID: 21300000, guid: c969b087783129747922a276f53944da, type: 3}
+  - {fileID: 21300000, guid: 017ea34fb4e47264987f31b70406bf36, type: 3}

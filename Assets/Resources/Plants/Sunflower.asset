@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd61843a727e2b44a836bbd946c6988c, type: 3}
+  m_Name: Sunflower
+  m_EditorClassIdentifier: 
+  plantName: Sunflower
+  plantMaxHealth: 200
+  plantPoorHealth: 25
+  plantMaxWater: 30
+  plantConsume: 10
+  plantPhaseDay: 3
+  plantStages:
+  - {fileID: 21300000, guid: 3348472d9515d0c4592de4fae69ca3cc, type: 3}
+  - {fileID: 21300000, guid: 2c71fb4ebc9bfbc40b421c7fe0e58191, type: 3}
+  - {fileID: 21300000, guid: 77dc0f60791d56f448ffd12f596da7e8, type: 3}
+  - {fileID: 21300000, guid: 04e7f3405552f8b468c5612baece380c, type: 3}
+  - {fileID: 21300000, guid: 35b9bb6d1abc74b4cb71033dd277e82e, type: 3}
